@@ -1,0 +1,13 @@
+用下面的语句来得到平均长度，标准差和最大长度的comment的长度
+
+lens = train.comment_text.str.len()
+print(f'Average length = {lens.mean()}\nStandard deviation = {lens.std()}\nMax length = {lens.max()}')
+
+
+Average length = 394.07
+Standard deviation = 590.72
+Max length = 5000
+
+可以看出每条评论之间的长度差异很大，标准差大
+最长有5000哥单词
+每条句子的长度差异大会影响训练效果

@@ -1,0 +1,13 @@
+这个文件解释了训练集中的class组成
+
+
+
+id
+
+comment_text 
+
+toxic severe_toxic 
+obscence 
+threat 
+insult 
+identity_hate 
